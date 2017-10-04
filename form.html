@@ -6,13 +6,10 @@
 </head>
 <body>
   <h1>netlify-sample form.html</h1>
-  <form method="post">
-    <pre>
-      name: <input name="name">
-      mail: <input type="email" name="mail">
-      <input type="submit">
-    </pre>
+  <form method="post" action="thanks.html" netlify>
+    <label>name: <input name="name"></label>
+    <label>mail: <input type="email" name="mail"></label>
+    <button type="submit">送る！</button>
   </form>
 </body>
 </html>
-
